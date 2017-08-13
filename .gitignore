@@ -9,3 +9,7 @@ lib/*
 
 # pip
 pip-selfcheck.json
+
+# emacs
+\#*\#
+.\#*
