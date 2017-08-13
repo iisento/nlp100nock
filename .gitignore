@@ -1,6 +1,11 @@
+# CPython
 __pycache__/*
 
+# virtualenv
 pyvenv.cfg
 bin/*
 include/*
 lib/*
+
+# pip
+pip-selfcheck.json
