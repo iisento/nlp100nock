@@ -1,5 +1,6 @@
 # CPython
 __pycache__/*
+*/__pycache__/*
 
 # virtualenv
 pyvenv.cfg
@@ -13,3 +14,7 @@ pip-selfcheck.json
 # emacs
 \#*\#
 .\#*
+
+# coverage
+*/.coverage
+man/*
