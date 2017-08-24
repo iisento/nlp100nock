@@ -4,15 +4,17 @@ class NGram:
         self._sentence = sentence
 
     def word(self, dim):
-        i = dim - 1
         s_list = self._sentence.split()
-        s_list1 = s_list[:-i]
-        s_list2 = s_list[i:]
-        return [list(s) for s in zip(s_list1, s_list2)]
+        s_list_len = len(s_list)
+        s_lists = []
+        for i in range(dim):
+            s_lists.append(s_list[i: s_list_len - (1 - i)])
+        return [list(s) for s in zip(*s_lists)]
 
     def char(self, dim):
-        i = dim - 1
         s = self._sentence.replace(' ', '')
-        s1 = s[:-i]
-        s2 = s[i:]
-        return [list(s) for s in zip(s1, s2)]
+        s_len = len(s)
+        s_list = []
+        for i in range(dim):
+            s_list.append(s[i: s_len - (i - 1)])
+        return [list(s) for s in zip(*s_list)]
