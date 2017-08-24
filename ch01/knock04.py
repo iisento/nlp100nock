@@ -5,7 +5,7 @@ def generate_atoms():
     s1 = ('Hi He Lied Because Boron Could Not Oxidize Fluorine.'
           ' New Nations Might Also Sign Peace Security Clause. '
           'Arthur King Can.')
-    s2 = re.sub(',|\.', '', s1).split()
+    s2 = s1.replace(',', '').replace('.', '').split()
     wl = [1, 5, 6, 7, 8, 9, 15, 16, 19]
     res = {}
     i = 1
