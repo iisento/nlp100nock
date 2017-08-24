@@ -11,8 +11,8 @@ def generate_atoms():
     i = 1
     for s in s2:
         if i in wl:
-            res[i] = s[0:1:1]
+            res[i] = s[0:1]
         else:
-            res[i] = s[0:2:1]
+            res[i] = s[0:2]
         i += 1
     return res
