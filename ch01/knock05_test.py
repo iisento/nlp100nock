@@ -3,7 +3,8 @@ import knock05
 
 
 class TestKnock05(unittest.TestCase):
-    def test_n_gram(self):
+
+    def test_NGram(self):
         sample_sentence = 'I am an NLPer'
         n_gram = knock05.NGram(sample_sentence)
         word_bi_gram = n_gram.word(2)
