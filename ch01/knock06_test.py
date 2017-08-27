@@ -7,7 +7,6 @@ class TestKnock06(unittest.TestCase):
 
     def test_BiGramSet(self):
         BG = BiGramSet('paraparaparadise', 'paragraph')
-        se = ['s', 'e']
         union_XY = set([frozenset(['a', 'r']), frozenset(['i', 's']),
                         frozenset(['d', 'i']), frozenset(['a', 'd']),
                         frozenset(['a', 'p']), frozenset(['a', 'g']),
