@@ -7,3 +7,4 @@
 ## TODO
 
 - Change test framework to `pytest` from `unittest`
+- Fix repository name from 'nlp100nock' to 'nlp100knock'
