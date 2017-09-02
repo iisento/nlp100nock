@@ -15,3 +15,5 @@ __pycache__/*
 man/*
 */.cache/*
 .cache
+
+ch02/hightemp.txt
