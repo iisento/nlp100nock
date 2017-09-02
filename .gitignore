@@ -1,0 +1,17 @@
+# CPython
+__pycache__/*
+*/__pycache__/*
+
+# virtualenvwrapper
+.python-version
+
+# emacs
+\#*\#
+.\#*
+
+# coverage
+.coverage
+*/.coverage
+man/*
+*/.cache/*
+.cache
