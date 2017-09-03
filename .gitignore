@@ -17,3 +17,5 @@ man/*
 .cache
 
 ch02/hightemp.txt
+
+*/*.pyc
